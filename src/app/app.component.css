@@ -1,3 +1,30 @@
-p {
-  font-family: Lato;
+* {
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div.alert {
+  text-align: center;
+}
+
+div.add-task {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul,
+ul li {
+  margin: 0;
+}
+
+ul.task-list li {
+  display: flex;
+  justify-content: space-around;
 }

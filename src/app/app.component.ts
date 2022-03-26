@@ -38,5 +38,6 @@ export class AppComponent {
 
   private save(): void {
     localStorage.setItem('userTaks', JSON.stringify(this.tasks));
+    console.log(localStorage.getItem('userTaks'))
   }
 }

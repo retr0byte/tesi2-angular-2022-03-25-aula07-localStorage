@@ -33,7 +33,7 @@ export class AppComponent {
   }
 
   show(): string[] {
-    return this.tasks;
+    return JSON.parse(localStorage.getItem('userTaks'));
   }
 
   private save(): void {
